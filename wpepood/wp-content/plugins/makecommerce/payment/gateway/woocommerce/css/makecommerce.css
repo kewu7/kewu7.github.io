@@ -1,0 +1,273 @@
+select#makecommerce {
+	display: none !important;
+}
+
+ul.makecommerce-picker {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0;
+}
+
+ul.makecommerce-picker input.makecommerce_country_picker {
+	margin: 0px;
+}
+
+div.makecommerce_country_picker_methods {
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+div.makecommerce_country_picker_methods.logosize-small div.makecommerce-banklink-picker {
+	width: 24%;
+}
+
+div.makecommerce_country_picker_methods.logosize-medium div.makecommerce-banklink-picker {
+	width: 32%;
+}
+
+div.makecommerce_country_picker_methods.logosize-large div.makecommerce-banklink-picker {
+	width: 48%;
+}
+
+div.makecommerce_country_picker_methods hr {
+	border-width: 0px;
+	height: 0px;
+	margin-bottom: 25px;
+	display: none;
+}
+
+li.makecommerce-picker-country {
+	border: 0px solid !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	list-style: none !important;
+}
+
+li.makecommerce-picker-country .makecommerce_country_picker_methods{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	float: left;
+	width: 100%;
+}
+
+div.makecommerce-banklink-picker {
+	display: block;
+	cursor: pointer;
+	margin: 0px;
+	border: 0px;
+	max-width: 14.2%;
+	margin-bottom: 2px;
+	float: left;
+	padding: 4px;
+	box-sizing: border-box;
+}
+
+.payment_box.payment_method_makecommerce{
+	margin-bottom: 0px;
+}
+
+div.makecommerce-banklink-picker.selected {
+	background: orange;
+}
+
+div.makecommerce-banklink-picker img {
+	width: 100%;
+	float: left;
+	max-height: none !important;
+}
+
+.payment_box.payment_method_makecommerce{
+	padding: 1em 1em 0.8em 1em !important;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li div.makecommerce-banklink-picker img {
+	margin: 0px;
+	max-width: 100%;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li div.makecommerce-banklink-picker img:hover{
+	opacity: 0.8;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li label.makecommerce_country_picker_label {
+	display: inline-block;
+	cursor: pointer;
+	height: 22px;
+	width: 30px;
+	background-position: center;
+	margin: 3px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.makecommerce_country_picker_countries {
+    padding: 0px 1px;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li label.makecommerce_country_picker_label.selected {
+	height: 28px;
+	width: 36px;
+	border: 3px solid orange;
+	margin: 0;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li label.makecommerce_country_picker_label::before{
+	display: none;
+}
+
+div.makecommerce-info > div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+div.makecommerce-logo a img {
+	width: 231px;
+}
+
+div.makecommerce-link a {
+	color: #007bdb;
+	text-decoration: none;
+}
+
+div.makecommerce-link a:hover {
+	text-decoration: underline;
+}
+
+.makecommerce-picker-country .breaker {
+	float: left;
+	width: 100%;
+	margin-bottom: 9px;
+}
+
+div.mc-processing-message {
+	display: none;
+	margin-top: 8px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	padding: 40px;
+	z-index: 11000;
+	text-align: center;
+	background-color: #ececec;
+}
+
+div.mc-processing-message img {
+	width: 16px;
+}
+
+.payment_box select#MakeCommerce {
+    display: none;
+}
+
+img.mc_loading {
+	display: none;
+}
+
+div.mc-clear-both {
+	clear: both;
+}
+
+.parcel-machine-select-box, .parcel-machine-select-box-time {
+	width: 100%;
+}
+
+.makecommerce-picker-method input {
+	float: left;
+}
+
+/* Widget version */
+div.makecommerce_country_picker_methods.logosize-small div.makecommerce-banklink-picker {
+	max-width: 25%;
+	width: 25%;
+}
+
+div.makecommerce_country_picker_methods.logosize-medium div.makecommerce-banklink-picker {
+	max-width: 33.333%;
+	width: 33.333%;
+}
+
+div.makecommerce_country_picker_methods.logosize-large div.makecommerce-banklink-picker {
+	max-width: 184px;
+	width: 50%;
+}
+
+li.makecommerce-picker-country .makecommerce_country_picker_methods.logosize-small {
+	max-width: 734px;
+}
+
+li.makecommerce-picker-country .makecommerce_country_picker_methods.logosize-medium {
+	max-width: 551px;
+}
+
+.makecommerce-selectbox-dropdown > * .select2-search__field {
+	background-color: white !important;
+}
+
+@media screen and (max-width: 767px) {
+	div.makecommerce_country_picker_methods.logosize-small div.makecommerce-banklink-picker {
+		max-width: 50%;
+		width: 25%;
+	}
+
+	div.makecommerce_country_picker_methods.logosize-medium div.makecommerce-banklink-picker {
+		max-width: 92px;
+		width: 33.33%;
+	}
+
+	div.makecommerce_country_picker_methods.logosize-large div.makecommerce-banklink-picker {
+		max-width: 184px;
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	div.makecommerce_country_picker_methods.logosize-small div.makecommerce-banklink-picker {
+		width: 33.33%;
+	}
+
+	div.makecommerce_country_picker_methods.logosize-medium div.makecommerce-banklink-picker {
+		max-width: 92px;
+		width: 50%;
+	}
+
+	div.makecommerce_country_picker_methods.logosize-large div.makecommerce-banklink-picker {
+		max-width: 184px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	div.makecommerce_country_picker_methods.logosize-small div.makecommerce-banklink-picker {
+		width: 50%;
+	}
+}
+
+/* List version */
+.payment_method_list_item_container {
+	height: auto;
+}
+
+div.makecommerce_country_picker_methods.logosize-small .makecommerce-method-title > img {
+	height: 26px !important;
+	max-height: 100% !important;
+	float: none !important;
+}
+
+div.makecommerce_country_picker_methods.logosize-medium .makecommerce-method-title > img {
+	height: 41px !important;
+	max-height: 100% !important;
+	float: none !important;
+}
+
+div.makecommerce_country_picker_methods.logosize-large .makecommerce-method-title > img {
+	height: 56px !important;
+	max-height: 100% !important;
+	float: none !important;
+}
+
+.country_picker_image_other {
+	background-size: contain !important;
+}

@@ -1,0 +1,16 @@
+
+# BEGIN WordPress
+# Käsud (read) "BEGIN WordPress" ja "END WordPress" vahel on
+# dünaamilselt genereeritud ja neid tuleks muuta üksnes WordPressi filtrite abil.
+# Kõik muudatused nende kahe markeri vahel kirjutatakse üle.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /Mento/epood/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /Mento/epood/index.php [L]
+</IfModule>
+
+# END WordPress

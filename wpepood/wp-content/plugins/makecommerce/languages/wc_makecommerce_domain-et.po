@@ -1,0 +1,942 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MakeCommerce 3.0.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/makecommerce\n"
+"POT-Creation-Date: 2022-06-28T08:12:23+00:00\n"
+"PO-Revision-Date: 2022-06-28 11:29+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1\n"
+"X-Domain: wc_makecommerce_domain\n"
+
+msgid "MakeCommerce API"
+msgstr "Maksekeskuse API"
+
+msgid "Text"
+msgstr "Tekst"
+
+msgid "Credit Card Settings"
+msgstr "Krediitkaardi Seaded"
+
+msgid "Advanced Settings"
+msgstr "Lisaseaded"
+
+msgid "Update"
+msgstr "Uuenda"
+
+msgid "If you want to change default order, put here comma separated list of channels. i,e, - seb,lhv,swedbank. see more on the module home page (link above)"
+msgstr "Saad maksekanalite vaikejärjestust muuta kui sisestad siia kanalite nimed sulle sobivas järjekorras. nt:  lhv,seb,swedbank. vt lisa mooduli kirjeldusest meie kodulehel (link päises)"
+
+msgid "Country selector style"
+msgstr "Riigi valik maksekanalite vidinas"
+
+msgid "Group bank-links by countries"
+msgstr "Grupeeri pangalingid riikide kaupa vidinateks"
+
+msgid "Prefill Credit Card form with customer data"
+msgstr "Eeltäida krediitkaardi andmete vorm kliendi nimega"
+
+msgid "It will pass user Name and e-mail address to the Credit Card dialog to make the form filling easier"
+msgstr "Saadab krediitkaardi dialoogi kasutaja nime ja e-meili aadressi, et muuta vormi täitmine lihtsamaks"
+
+msgid "Update payment methods"
+msgstr "Uuenda maksekanaleid"
+
+msgid "List"
+msgstr "Kuva listina"
+
+msgid "Grouped to widget"
+msgstr "Grupeeri vidinaks"
+
+msgid "Dropdown"
+msgstr "Valikmenüü"
+
+msgid "Flag"
+msgstr "Lipp"
+
+msgid "Appropriate title may depend on the configuration you have made, i.e. 'pay with bank-link or credit card', 'pay with bank-links' or 'payment methods'"
+msgstr "Erinevate seadete korral sobib vast kasutada erinevat pealkirja, nt. 'Maksa panaglingi või kaardiga' või 'maksa pangalingiga' või 'makseviisid'"
+
+msgid "Estonia"
+msgstr "Eesti"
+
+msgid "Latvia"
+msgstr "Läti"
+
+msgid "Lithuania"
+msgstr "Leedu"
+
+msgid "Finland"
+msgstr "Soome"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "Integration country"
+msgstr "Teenusepakkuja riik"
+
+msgid "MakeCommerce"
+msgstr "Maksekeskus"
+
+msgid "https://makecommerce.net/"
+msgstr "https://maksekeskus.ee/"
+
+msgid "Adds MakeCommerce/Simplecheckout payment gateway and Itella/Omniva/DPD parcel machine shipping methods to WooCommerce checkout"
+msgstr "Lisab WooCommerc'ile MakeCommerce/Simplecheckout makseteenuse ja Itella/Omniva/DPD pakiautomaatide tarneviisi mooduli"
+
+msgid "Maksekeskus AS"
+msgstr "Maksekeskus AS"
+
+msgid "You have enabled MakeCommerce module but it seems that you don't have CURL enabled. This way MakeCommerce unfortunately does not work!"
+msgstr "Olete sisse lülitanud Maksekeskuse mooduli, kuid tundub, et teil pole CURL lubatud. Nii Maksekeskuse moodul kahjuks ei tööta!"
+
+msgid "MakeCommerce API access"
+msgstr "MakeCommerce API"
+
+msgid "MakeCommerce API access credentials"
+msgstr "Maksekeskus/MakeCommerce API seaded"
+
+msgid "To use MakeCommerce/Maksekeskus services you need to enter API credentials below here <br/> <br/>"
+msgstr "Maksekeskuse teenuste kasutamiseks pead sisetama meie API ligipääsu seaded siin all. <br/> <br/>"
+
+msgid "To further configure the Payment methods please go to <a href=.\"%s\">MakeCommerce Checkout Options</a>, links to settings of our Shipment methods are listed below"
+msgstr "Järgmiseks seadista Kassa seadete all <a href=.\"%s\">MakeCommerce makseviis</a>, meie tarneviiside seadete lingid on listitud all"
+
+msgid "Current environment"
+msgstr "Määra keskkond"
+
+msgid "See more about <a href=\"https://maksekeskus.ee/en/for-developers/test-environment/\">MakeCommerce Test environment</a>"
+msgstr "Vaata: <a href=\"https://maksekeskus.ee/arendajale/testkeskkond/\">MakeCommerce Testkeskkond</a>"
+
+msgid "Live"
+msgstr "Live"
+
+msgid "Test"
+msgstr "Test"
+
+msgid "Shop ID (live)"
+msgstr "Poe ID (live)"
+
+msgid "Get it from <a href=\"https://merchant.maksekeskus.ee/api.html\" target=\"_blank\">Merchant Portal</a>"
+msgstr "Selle saad siit <a href=\"https://merchant.maksekeskus.ee/api.html\" target=\"_blank\">Merchant Portal</a>"
+
+msgid "Secret key (live)"
+msgstr "API Salajane võti"
+
+msgid "Publishable key (live)"
+msgstr "API Avalik võti"
+
+msgid "Shop ID (test)"
+msgstr "Poe ID (test)"
+
+msgid "Get it from <a href=\"https://merchant.test.maksekeskus.ee/api.html\" target=\"_blank\">Merchant Portal Test</a>"
+msgstr "Leiad selle: <a href=\"https://merchant.test.maksekeskus.ee/api.html\" target=\"_blank\">Kaupmehe Test-Keskkond</a>"
+
+msgid "Secret key (test)"
+msgstr "API Salajane võti (test)"
+
+msgid "Publishable key (test)"
+msgstr "API Avalik võti (test)"
+
+msgid "Label print format"
+msgstr "Pakikaardi printimise formaat"
+
+msgid "In which format should shipping labels be printed. (*make sure you have API access to see more options)"
+msgstr "Millises formaadis soovite pakikaardid välja printida (*et näha rohkem valikuid, kontrollige et teil on ligipääs API-le)"
+
+msgid "Makecommerce modules"
+msgstr "MakeCommerce moodulid"
+
+msgid "Our plugin adds several modules to your shop. Here you can switch off modules that are not important for you, they will disappear from Woocommerce settings menus.<br> Each active module have their own settings dialog, where they must also be Enabled before use."
+msgstr "Meie plugin lisas Sinu poele mitmed alam-moodulid. Siin saad sa välja lülitada moodulid, mida sa ei kasuta - siis kaovad nad ka Woo seadete menüüdest.<br> Igal aktiivsel moodulil on ka oma seadete lehekülg kus nad tulevad ennem kasutamist “Lubada”."
+
+msgid "Omniva Parcel Machine"
+msgstr "Omniva pakiautomaat"
+
+msgid "enable Omniva parcel machines shipping method"
+msgstr "aktiveeri Omniva pakiautomaatide tarneviisi moodul"
+
+msgid "<a href=\"%s\">module settings</a>"
+msgstr "<a href=\"%s\">mooduli seaded</a>"
+
+msgid "Smartpost Parcel Machine"
+msgstr "Smartpost pakiautomaat"
+
+msgid "enable Smartpost parcel machines shipping method"
+msgstr "aktiveeri Smartpost pakiautomaatide tarneviisi moodul"
+
+msgid "DPD"
+msgstr "DPD"
+
+msgid "parcel machine"
+msgstr "Pakiautomaat"
+
+msgid "enable DPD parcel machine shipping method"
+msgstr "aktiveeri DPD pakiautomaatide tarneviisi moodul"
+
+msgid "Omniva Courier"
+msgstr "Omniva kuller"
+
+msgid "enable Omniva courier shipping method"
+msgstr "aktiveeri Omniva kuller tarneviisi moodul"
+
+msgid "Smartpost Courier"
+msgstr "Smartpost kuller"
+
+msgid "enable Smartpost courier shipping method"
+msgstr "aktiveeri Smartpost kuller tarneviisi moodul"
+
+msgid "SimpleCheckout"
+msgstr "SimpleCheckout"
+
+msgid "enable SimpleCheckout&trade; Checkout method"
+msgstr "aktiveeri SimpleCheckout&trade; maksemeetod"
+
+msgid "You have not entered the Shop ID and keys for the MakeCommerce payment module. The module will not work without them."
+msgstr "Te ei ole sisestanud MakeCommerce moodulisse Poe ID-d ja võtmeid. Moodul ei tööta ilma nendeta."
+
+msgid "Click here to enter them"
+msgstr "Kliki siia, et need sisestada"
+
+msgid "International"
+msgstr "Rahvusvaheline"
+
+msgid "Please check that you have configured correctly MakeCommerce API accesses"
+msgstr "Palun kontrolli, kas MakeCommerce API seaded on korrektselt määratud"
+
+msgid "Cannot initiate MakeCommerce, a class and/or namespace called \"MakeCommerce\" is already in use somewhere else..."
+msgstr "Ei ole võimalik sisse lülitada Maksekeskuse moodulit. Class või namepace nimega \"MakeCommerce\" on juba kuskil mujal kasutuses..."
+
+msgid "Cannot initiate MakeCommerce, there seems to be no WooCommerce present or active..."
+msgstr "Maksekeskuse moodulit ei ole võimalik sisse lülitada. Teie veebilehel puudu WooCommerce plugin..."
+
+msgid "Payment failed"
+msgstr "Makse ebaõnnestus"
+
+msgid "Payment transaction cancelled"
+msgstr "Maksetehing katkestatud"
+
+msgid "Payment transaction expired"
+msgstr "Maksetehing aegus"
+
+msgid "Simple Checkout feature will be removed from the MakeCommerce module on 1st of October. If you’re using the feature in your shop, please start using the WooCommerce default checkout before October."
+msgstr "Simple Checkout funktsioon eemaldatakse moodulist 1. oktoobril. Palume enne seda hakata kasutama WooCommerce’i ametlikku makse vormistamise funktsiooni."
+
+msgid "Refund completed for amount %s"
+msgstr "Tagasimakse tehtud summas %s"
+
+msgid "Partial refund completed for amount %s"
+msgstr "Osaline tagasimakse tehtud summas %s"
+
+msgid "You have to log in to continue to checkout"
+msgstr "Kassasse liikumiseks pead esmalt sisse logima"
+
+msgid "SimpleCheckout replaces Woocommerce built-in check-out dialog with Makecommerce hosted dialog. It is more convenient and faster for your customers"
+msgstr "SimpleCheckout asendab standardse Woocommerce kassa-dialoogi Maksekeskuse poolt pakutavaga, mis on ostjale kiirem ja mugavam läbida"
+
+msgid "See more about SimpleCheckout on: <a target=_blank href=\"https://makecommerce.net/simplecheckout/\">makecommerce.net/simplecheckout</a>"
+msgstr "Rohkem infot SimpleCheckout kohta: <a target=_blank href=\"https://maksekeskus.ee/simple-checkout/\">maksekeskus.ee/simple-checkout</a>"
+
+msgid "Enable/Disable"
+msgstr "Luba/Keela"
+
+msgid "Enable SimpleCheckout"
+msgstr "Aktiveeri SimpleCheckout"
+
+msgid "Shop ToS url"
+msgstr "Poe Kasutustingimuste url"
+
+msgid "paste here url of your shop \"Terms and Conditions\" page"
+msgstr "kopeeri siia oma poe Kasutustingimuste link (url)"
+
+msgid "paste the url of your shops \"Terms and Conditions\" page here"
+msgstr "kopeeri siia oma poe Kasutustingimuste link (url)"
+
+msgid "Hide shipping methods block"
+msgstr "Peida ostukorvis transpordi plokk"
+
+msgid "Hide shipping methods block on cart page. This will make it look more clean and simple"
+msgstr "Peida ostukorvi lehel plokk tarneviiside valikuga. See teeb ostukorvi vaate puhtamaks. (tarneviisi valik toimub SimpleCheckout dialoogis)"
+
+msgid "Unable to renew subscription"
+msgstr "Püsitellimuse uuendamine ebaõnnestus"
+
+msgid "Renewal payment was declined"
+msgstr "Korduvmakse lükati tagasi"
+
+msgid "Transaction ID"
+msgstr "MK tehing"
+
+msgid "Payment option"
+msgstr "Makseviis"
+
+msgid "Update successfully completed!"
+msgstr "Uuendamine edukalt sooritatud!"
+
+msgid "Update successfully completed, but no payment methods were returned. Please contact us to solve the issue at support@maksekeskus.ee"
+msgstr "Maksemeetodid said edukalt uuendatud, kuid ühtegi makseviisi pole saadaval. Probleemi lahendamiseks palun võtke meiega ühendust aadressil support@maksekeskus.ee"
+
+msgid "There was an error with your update. Please try again."
+msgstr "Uuendamisel tekkis viga. Palun proovige uuesti."
+
+msgid "The order is still awaiting your payment"
+msgstr "Tellimus ootab endiselt Sinu makset"
+
+msgid "Pay for subscription"
+msgstr "Maksa püsitellimuse eest"
+
+msgid "This order contains subscriptions"
+msgstr "See tellimus sisaldab korduvmakseid"
+
+msgid "I agree that my card will be recurringly billed by this store"
+msgstr "Nõustun, et minu kaardiga sooritatakse korduvaid makseid"
+
+msgid "Pay with credit card"
+msgstr "Maksa krediitkaardiga"
+
+msgid "Please wait, processing payment..."
+msgstr "Palun oota, sooritame makset..."
+
+msgid "The payment methods list for MakeCommerce payment module is empty."
+msgstr "MakeCommerce mooduli makseviiside nimekiri on tühi."
+
+msgid "Go to the settings to update them"
+msgstr "Mine seadistuste lehele, et seda uuendada"
+
+msgid "You have changed the environment for MakeCommerce payment module. The payment methods list has been loaded for a different environment."
+msgstr "Oled muutnud MakeCommerce mooduli keskkonna seadistust. Makseviiside nimekiri on laetud teisest keskkonnast."
+
+msgid "No payment methods for selected country"
+msgstr "Valitud riigi jaoks ei ole makseviise"
+
+msgid "Pay in <b>three equal parts, %s EUR per month</b>. First payment on <b>%s %s</b>"
+msgstr "Maksa <b>kolmes võrdses osas %s EUR kuus</b>. Esimene makse <b>%s %s</b>"
+
+msgid "Buy now, <b>pay on the 15th of the next month</b>"
+msgstr "Osta kohe, <b>maksa järgmise kuu 15ndal</b>"
+
+msgid "Pay <b>%s EUR per month for 12 months</b>. Interest %s"
+msgstr "Maksa <b>%s EUR kuus, 12 kuu vältel</b>. Intress %s"
+
+msgid "Pay <b>%s EUR per month</b> for 12 months<br>\n                        <br>\n                        <i>Borrowing rate %s&#37;, credit amount %s€, contract conclusion fee %s€, total amount payable %s€, annual interest rate %s&#37;\n                        Calculation is only informative.</i>"
+msgstr "Maksa 12 kuu vältel <b>%s EUR kuus</b><br> <br> <i>Laenuintress %s&#37;, krediidisumma %s€, lepingu sõlmimise tasu %s€, kogu makstav summa %s€, aastane intressimäär %s&#37; Arvutus on informatiivne</i>"
+
+msgid "Pay later Settings"
+msgstr "Maksa hiljem sätted"
+
+msgid "Show pay later options at product view"
+msgstr "Näita toote juures maksa hiljem võimalusi"
+
+msgid "Select desired pay later methods to show in product view"
+msgstr "Vali maksa hiljem makseviisid mida kuvada toodete juures"
+
+msgid "Select multiple methods by holding down Ctrl or Command button"
+msgstr "Saad valida mitu makseviisi hoides sees Ctrl või Command nuppu"
+
+msgid "Your shop doesn't currently offer pay later methods with Maksekeskus. Adding pay later options to your should increases number of customers and purchase amounts. Please <a target=\"_blank\" href=\"https://makecommerce.net/contact/\">get in touch</a> with us to enable pay later for your shop."
+msgstr "Sinu poes ei ole Maksekeskuse maksa hiljem meetodid kasutusel. Pakkudes oma klientidele mitmes osas maksmise võimalust saad suurendada klientide arvu ning kasvatada ostukorve. <a target=\"_blank\" href=\"https://maksekeskus.ee/kontakt/\">Võta meiega ühendust</a>, et oma poodi maksa hiljem lahendused lisada."
+
+msgid "This pay later feature is not available in your country yet. <a target=\"_blank\" href=\"https://makecommerce.net/contact/\">Contact us</a> for more information!"
+msgstr "Maksa hiljem meetodite kuvamine pole sinu riigis hetkel toetatud.<a target=\"_blank\" href=\"https://maksekeskus.ee/kontakt/\">Võta meiega ühendust</a>"
+
+msgid "Dismiss"
+msgstr "Sulge teade"
+
+msgid "MakeCommerce module now includes <a href=\"%s\">option to display pay later options and payment terms examples in product view</a>. Having pay later options available potentially grows your customer base as well as average shopping cart. We recommend to use this option if considerable number of purchases are above 75 euros."
+msgstr "MakeCommerce moodul sisaldab nüüd <a href=\"%s\">võimalust kuvada toodete juures erinevaid maksa hiljem makseviise</a> koos näitliku osamaksete graafikuga. See annab klientidele vajalikku teavet paindlikke makseviiside kohta, mis lubavad maksta ostu eest hiljem ja osade kaupma. Maksa hiljem makseviiside aktiivne tutvustamine on vajalik, kui sinu poe ostukorvid ületavat tihti 75 eurot."
+
+msgid "January"
+msgstr "jaanuar"
+
+msgid "February"
+msgstr "veebruar"
+
+msgid "March"
+msgstr "märts"
+
+msgid "April"
+msgstr "aprill"
+
+msgid "May"
+msgstr "mai"
+
+msgid "June"
+msgstr "juuni"
+
+msgid "July"
+msgstr "juuli"
+
+msgid "August"
+msgstr "august"
+
+msgid "September"
+msgstr "september"
+
+msgid "October"
+msgstr "oktoober"
+
+msgid "November"
+msgstr "november"
+
+msgid "December"
+msgstr "detsember"
+
+msgid "1st"
+msgstr "1."
+
+msgid "2nd"
+msgstr "2."
+
+msgid "3rd"
+msgstr "3."
+
+msgid "4th"
+msgstr "4."
+
+msgid "5th"
+msgstr "5."
+
+msgid "6th"
+msgstr "6."
+
+msgid "7th"
+msgstr "7."
+
+msgid "8th"
+msgstr "8."
+
+msgid "9th"
+msgstr "9."
+
+msgid "10th"
+msgstr "10."
+
+msgid "11th"
+msgstr "11."
+
+msgid "12th"
+msgstr "12."
+
+msgid "13th"
+msgstr "13."
+
+msgid "14th"
+msgstr "14."
+
+msgid "15th"
+msgstr "15."
+
+msgid "16th"
+msgstr "16."
+
+msgid "17th"
+msgstr "17."
+
+msgid "18th"
+msgstr "18."
+
+msgid "19th"
+msgstr "19."
+
+msgid "20th"
+msgstr "20."
+
+msgid "21st"
+msgstr "21."
+
+msgid "22nd"
+msgstr "22."
+
+msgid "23rd"
+msgstr "23."
+
+msgid "24th"
+msgstr "24."
+
+msgid "25th"
+msgstr "25."
+
+msgid "26th"
+msgstr "26."
+
+msgid "27th"
+msgstr "27."
+
+msgid "28th"
+msgstr "28."
+
+msgid "29th"
+msgstr "29."
+
+msgid "30th"
+msgstr "30."
+
+msgid "31st"
+msgstr "31."
+
+msgid "Enable MakeCommerce payments"
+msgstr "Aktiveeri Maksekeskuse makseviisid"
+
+msgid "Go to <a href=\"%s\">API settings</a> to fill in the credentials"
+msgstr "Mine <a href=\"%s\">API seadetesse</a>, et sisestada andmed"
+
+msgid "User Interface"
+msgstr "Kasutajaliides"
+
+msgid "Set as default selection"
+msgstr "Määra vaikimisi valikuna"
+
+msgid "MakeCommerce payments widget will be selected by default"
+msgstr "Vaikimisi on valitud Maksekeskuse maksevidin"
+
+msgid "Display MC payment channels as"
+msgstr "Kuva MC maksekanalid kui"
+
+msgid "Payments widget title"
+msgstr "Maksete vidina nimi"
+
+msgid "Pay with bank-links or credit card"
+msgstr "Maksa pangalingi või kaardiga"
+
+msgid "MC payment channels display style"
+msgstr "MC maksekanalite kuvamise stiil"
+
+msgid "Text & logo"
+msgstr "Tekst & logo"
+
+msgid "Size of payment channel logos"
+msgstr "Maksekanali logode suurused"
+
+msgid "Small"
+msgstr "Väike"
+
+msgid "Medium"
+msgstr "Keskmine"
+
+msgid "Large"
+msgstr "Suur"
+
+msgid "Hide country selector"
+msgstr "Peida riigi valik"
+
+msgid "Do not display country selector (flags) at payment methods"
+msgstr "Ära näita makseviiside juures riigi valikut (lipud)"
+
+msgid "Define custom order of payment countries"
+msgstr "Määra makseviiside järjekord riikide järgi"
+
+msgid "If you want to change default order, insert a comma separated list of 2 char country codes. i.e. - ee, lv, lt, fi (international = other)"
+msgstr "Kui soovid muuta vaikimisi järjekorda, lisa kahetähelised riikide koodid ning eralda need komadega – näiteks ee, lv, lt, fi (rahvusvaheline = other)"
+
+msgid "Define custom order of payment channels"
+msgstr "Määra maksekanalite järjestus"
+
+msgid "This will update shop configuration from MakeCommerce servers."
+msgstr "See värskendab poe seadeid Maksekeskuse serveritest."
+
+msgid "Please select suitable payment option!"
+msgstr "Palun vali sobiv makseviis!"
+
+msgid "An error occured when trying to process payment!"
+msgstr "Makse töötlemisel tekkis viga!"
+
+msgid "Orders %s did not have shipment ID attached so no labels was printed! Please register those packages if you think this is an error!"
+msgstr "Tellimustel %s ei olnud saadetise ID-d, seega pakikaarte ei trükitud. Palun registreeri need pakid, kui arvad, et see on viga!"
+
+msgid "Register parcel machine shipments"
+msgstr "Registreeri pakiautomaadi saadetised"
+
+msgid "Print parcel machine labels"
+msgstr "Trüki pakiautomaadi pakikaardid"
+
+msgid "Print parcel label"
+msgstr "Trüki pakikaart"
+
+msgid "Something went wrong generating a label for this order. Please try again! Contact us, if the problem persists."
+msgstr "Pakikaardi loomisega sellele tellimusele läks midagi valesti. Palun proovi uuesti! Kui probleem ei lahene, võta meiega ühendust!"
+
+msgid " can be used with an international phone number only. Please specify your phone number with international access code (e.g. +372xxxxxxx)"
+msgstr " võimalik kasutada vaid rahvusvahelise telefoninumbriga. Palun täpsusta oma telefoninumber rahvusvahelise koodiga (nt. +372xxxxxxx)"
+
+msgid " can only be used with Estonian, Latvian and Lithuanian numbers that are able to receive SMS (mobile phone)."
+msgstr "võimalik kasutada ainult Eesti, Läti ja Leedu mobiilinumbritega, mis suudavad vastu võtta SMS sõnumeid"
+
+msgid "courier"
+msgstr "kuller"
+
+msgid "courier (MC)"
+msgstr "kuller (MC)"
+
+msgid "Register shipments automatically as"
+msgstr "Registreeri saadetised automaatselt kui"
+
+msgid "register on Payment"
+msgstr "registreeri tasumisel"
+
+msgid "Shipments will be automatically registered on payment using the selected Omniva service code"
+msgstr "Tellimuse maksmisel registreeritakse saadetis Omnivas automaatselt, kasutades valitud Omniva teenuskoodi"
+
+msgid "QP - handover to Omniva at Post Office"
+msgstr "QP - üleandmine Omnivale postkontoris"
+
+msgid "PK - handover to Omniva via Parcel Machine"
+msgstr "PK - üleandmine Omnivale pakiautomaadi vahendusel"
+
+msgid "Which country's carrier gave you the credentials"
+msgstr "Millise riigi operaator teile ligipääsu andis"
+
+msgid "Pick courier arrival time window"
+msgstr "Vali kulleri saabumise ajavahemik"
+
+msgid "Any time"
+msgstr "Igal ajal"
+
+msgid "Worktime (09:00..17:00)"
+msgstr "Tööajal (09:00..17:00)"
+
+msgid "After worktime (17:00..21:00)"
+msgstr "Pärast tööaega (17:00..21:00)"
+
+msgid "<strong>Parcel machine</strong> is a required field."
+msgstr "<strong>Pakiautomaat</strong> on nõutud väli."
+
+msgid "Generic and pricing options"
+msgstr "Üldised seaded ja hinna seaded"
+
+msgid "Enable"
+msgstr "Luba"
+
+msgid "enabled"
+msgstr "lubatud"
+
+msgid "Maximum weight allowed for shipping (%s)"
+msgstr "Maksimaalne lubatud kaal tarne jaoks (%s)"
+
+msgid "Look and feel options"
+msgstr "Välimuse seadistused"
+
+msgid "Options for presentation on check-out page"
+msgstr "Seaded Kassa lehe jaoks"
+
+msgid "Shipping Method Title"
+msgstr "Tarneviisi nimi"
+
+msgid "API access for"
+msgstr "API ligipääs"
+
+msgid "You can automatically create shipments into %s system and print the out the package labels right here, at the shop orders view. <br> Please set your %s web services account credentials below here. <br>(see more on <a href=\"https://makecommerce.net/en/integration-modules/makecommerce-woocommerce-payment-plugin/#carriers-integration\">MakeCommerce plugin page</a>. Don't forget to enable also <a href=\"%s\">MC API keys</a>!)"
+msgstr "Saad saadetise automaatselt %s süsteemi registreerida ja trükkida pakikaardid siinsamas poe tellimuste vaates. <br> Palun sisesta oma %s web services konto andmed allpool. <br>(vaata edasi <a href=\"https://makecommerce.net/en/integration-modules/makecommerce-woocommerce-payment-plugin/#carriers-integration\">MakeCommerce´i plugina lehel</a>. Ära unusta aktiveerida <a href=\"%s\">MakeCommerce API võtmed</a>!)"
+
+msgid "Shipping price"
+msgstr "Tarne hind"
+
+msgid "Free shipping amount"
+msgstr "Tasuta tarne summa"
+
+msgid "(0 means no free shipping)"
+msgstr "(0 = tasuta tarnet ei pakuta)"
+
+msgid "Free shipping coupons"
+msgstr "Tasuta tarne kupongid"
+
+msgid "Allow using free shipping coupons to be used with this method"
+msgstr "Luba tasuta tarne kupongide kasutamist selle meetodiga"
+
+msgid "Return address"
+msgstr "Tagastusaadress"
+
+msgid "Please define return address for %s shipments"
+msgstr "Palun sisesta %s saadetiste jaoks tagastusaadress"
+
+msgid "Shop name"
+msgstr "Poe nimi"
+
+msgid "Shop phone"
+msgstr "Poe telefoninumber"
+
+msgid "Shop email"
+msgstr "Poe e-mail"
+
+msgid "Shop address country"
+msgstr "Poe aadress: riik"
+
+msgid "Shop address city"
+msgstr "Poe aadress: linn"
+
+msgid "Shop address street"
+msgstr "Poe aadress: tänav"
+
+msgid "Shop postal code"
+msgstr "Poe postiindeks"
+
+msgid "%s web services username"
+msgstr "web services kasutajanimi"
+
+msgid "%s web services password"
+msgstr "%s web services salasõna"
+
+msgid "Contract"
+msgstr "Leping"
+
+msgid "use my own Omniva contract"
+msgstr "kasuta minu enda Omniva lepingut"
+
+msgid "use MakeCommerce transport mediation service"
+msgstr "kasuta tarnet Maksekeskuse vahendusel"
+
+msgid "Verify service status"
+msgstr "Kontrolli teenuse staatust"
+
+msgid "You must enable the Transport mediation service before using it."
+msgstr "Pead 'Tarne Maksekeskuse vahendusel' enne selle kasutamist aktiveerima."
+
+msgid "This will check if the Transport mediation service has been enabled for your shop."
+msgstr "See kontrollib, kas Sinu poele on tarne Maksekeskuse vahendusel lubatud."
+
+msgid "Verify"
+msgstr "Kontrolli"
+
+msgid "The transport mediation service is already enabled for your shop. You are good to go!"
+msgstr "Tarne Maksekeskuse vahendusel on Sinu poele juba avatud. Head kasutamist!"
+
+msgid "The transport mediation service is NOT ENABLED enabled for your shop. Please go to merchant portal to activate it!"
+msgstr "Tarne Maksekeskuse vahendusel EI OLE poele veel avatud. Palun aktiveeri teenus iseteenindusportaalis!"
+
+msgid "There was an error with your request. Please try again."
+msgstr "Päringu tegemisel tekkis viga. Palun proovi uuesti."
+
+msgid "parcelmachine"
+msgstr "pakiautomaat"
+
+msgid "parcel machine (MC)"
+msgstr "pakiautomaat (MC)"
+
+msgid "Prioritize"
+msgstr "Tähtsamad enne"
+
+msgid "Bigger cities will be on top of list, others sorted alphabetically"
+msgstr "Suuremad linnad on loetelu alguses, ülejäänud on sorteeritud tähestikuliselt"
+
+msgid "Short names"
+msgstr "Lühikesed nimed"
+
+msgid "Display only parcel machine names, without addresses"
+msgstr "Kuva pakiautomaatide nimed, ilma aadressita"
+
+msgid "Search"
+msgstr "Otsing"
+
+msgid "Make parcel machine selection searchable"
+msgstr "Muuda pakiautomaatide valik otsitavaks"
+
+msgid "-- select parcel machine --"
+msgstr "-- vali pakiautomaat --"
+
+msgid "Use authenticable APTs"
+msgstr "Kasuta autentimisega pakiautomaate"
+
+msgid "use all APTs"
+msgstr "kasuta kõiki pakiautomaate"
+
+msgid "use only non-white auth-capable APTs"
+msgstr "kasuta ainult mittevalgeid autentimisega pakiautomaate"
+
+msgid "Shipping class costs (optional)"
+msgstr "Tarneklassi hind (valikuline)"
+
+msgid "Shipping class cost is added to the shipping price. If multiple are found, the one with highest cost is added."
+msgstr "Tarneklassi hind lisatakse juurde tarnehinnale. Kui neid leitakse mitu, siis lisatakse suurim kulu."
+
+msgid "Parcel machine"
+msgstr "Pakiautomaat"
+
+msgid "Delivery time"
+msgstr "Tarne aeg"
+
+msgid "Shipment tracking code"
+msgstr "Saadetise jälgimise kood"
+
+msgid "Package shipment generation error:"
+msgstr "Saadetise registreerimise viga:"
+
+msgid "-- filter by shipping method"
+msgstr "-- filtreeri tarneviisi järgi"
+
+msgid " Shipment tracking code"
+msgstr "Saadetise jälgimise kood"
+
+msgid "Shipment tracking info"
+msgstr "Saadetise jälgimise info"
+
+msgid "Does not fit parcel machine"
+msgstr "Ei sobi pakiautomaati"
+
+msgid "When this is checked, parcel machine shipping option is not available for a cart with this product"
+msgstr "Kui see on märgitud, siis ostukorvile selle tootega pakiautomaate tarneviisina ei pakuta"
+
+msgid "Free parcel machine"
+msgstr "Pakiautomaati tasuta"
+
+msgid "When this is checked, parcel machine is free for this product"
+msgstr "Kui see on märgitud, on pakiautomaat selle toote jaoks tasuta"
+
+msgid "This is a test"
+msgstr "See on test"
+
+msgid "Adds MakeCommerce payment gateway and Itella/Omniva/DPD parcel machine shipping methods to WooCommerce checkout"
+msgstr "Lisab MakeCommerce'i maksevärava ning Itella SmartPosti, Omniva ja DPD pakiautomaadi tarne WooCommerce'i kassasse"
+
+msgid "LP Express"
+msgstr "LP Express"
+
+msgid "enable LP Express parcel machine shipping method"
+msgstr "luba LP Expressi pakiautomaadi tarneviis"
+
+msgid "Pay <b>%s EUR per month</b> for 12 months<br>\n                        <br>\n                        <i>Borrowing rate %s&#37;, credit amount %s€, contract conclusion fee %s€, total amount payable %s€, annual interest rate %s&#37;\n                        Calculation is only informative.</i>"
+msgstr "Maksa 12 kuu vältel <b>%s EUR kuus</b><br> <br> <i>Laenuintress %s&#37;, krediidisumma %s€, lepingu sõlmimise tasu %s€, kogu makstav summa %s€, aastane intressimäär %s&#37; Arvutus on informatiivne</i>"
+
+msgid " can be used with a Lithuanian phone number only. Please specify your phone number with Lithuanian access code (e.g. +370xxxxxxxx)"
+msgstr "saab kasutada ainult Leedu telefoninumbriga. Palun täpsusta oma telefoninumber, koos Leedu koodiga (nt +370xxxxxxxxx)"
+
+msgid "Update here"
+msgstr "Värskenda siin"
+
+msgid "Shop phone (mobile)"
+msgstr "Poe telefon (mobiil)"
+
+msgid "Default LP Express template"
+msgstr "Vaikimisi LP Expressi mall"
+
+msgid "All new orders will have this template as a default but can be individually changed in the order view. <br>When changing the template size in the order view, the packing slip will also change."
+msgstr "Kõik uued tellimused saavad selle malli vaikimisi, kuid seda saab tellimuse vaates muuta. <br>Kui muudate tellimuse vaates malli suurust, muutub ka pakikaart."
+
+msgid "Shop building"
+msgstr "Poe aadress: hoone"
+
+msgid "Shop apartment"
+msgstr "Poe aadress"
+
+msgid "Parcel to Parcel size XL"
+msgstr "Pakiautomaadist pakiautomaati, suurus XL"
+
+msgid "LP Express template"
+msgstr "LP Expressi mall"
+
+msgid " can be used with an international phone number only. Please specify your phone number with international country code (e.g. +372xxxxxxx)"
+msgstr "tuleb sisestada rahvusvaheline telefoninumber. Palun sisesta see koos riigi koodiga (näiteks +372xxxxxxx)"
+
+msgid " can be used with a Lithuanian phone number only. Please specify your phone number with Lithuanian country code (e.g. +370xxxxxxxx)"
+msgstr "Saab kasutada ainult Leedu telefoninumbriga. Sisesta koos riigi koodiga (+370xxxxxxxx)"
+
+msgid "Please define return address for %s shipments.<br><b>All fields are required.</b>"
+msgstr "Palun määra tagastusaadress %s saadetisele.<br><b>Kõik väljad on nõutud.</b>"
+
+msgid "To further configure the Payment methods please go to <a href=\"%s\">MakeCommerce Checkout Options</a>, links to settings of our Shipment methods are listed below"
+msgstr "Makseviiside täiendavaks seadistamiseks palun mine  <a href=\"%s\">MakeCommerce Checkout valikutesse</a>. Viited tarneviiside seadistamisekson loetletud allpool."
+
+msgid "Buy now, <b>pay on the 25th of the next month</b>"
+msgstr "Osta kohe, <b>maksa järgmise kuu 25ndal</b>"
+
+msgid "SmartPost API Key"
+msgstr "SmartPost API võti"
+
+msgid "Parcel Machine Map Settings"
+msgstr "Pakiautomaatide kaardi seaded"
+
+msgid "Before using, please read more about the functionalities, benefits and security measures of our parcel machine map from"
+msgstr "Enne kaardivaate võimaldamist, loe palun lähemalt selle funktsionaalsuste, eeliste ja turvaseadete kohta"
+
+msgid "our plugin instructions"
+msgstr "meie plugina juhised"
+
+msgid "Enable map selection for parcel machines"
+msgstr "Luba pakiautomaatide valik kaardil"
+
+msgid "Allow customers to select their desired parcel machine from a map view"
+msgstr "Võimalda klientidel neile sobiv pakiautomaat valida kaardi vaates"
+
+msgid "Define Google Javascript API key"
+msgstr "Määra Google Javascript API võti"
+
+msgid "In order to enable the map feature for parcel machine seletion, a Google Javascript API key needs to be obtained"
+msgstr "Kaardi funktsiooni lubamiseks pakiautomaadi valimisel on vaja hankida Google Javascript API võti"
+
+msgid "Use Google Geocoding"
+msgstr "Kasuta Google´i geokodeerimist"
+
+msgid "Geocoding allows the map to centralize on the shipping address"
+msgstr "Geokodeerimine võimaldab kaardil tsentraliseerida tarneaadressi"
+
+msgid "Define a Google Geocoding API key"
+msgstr "Määra Google´i geokodeerimise API võti"
+
+msgid "A separate API key is recommended to be defined for Geocoding due to security reasons"
+msgstr "Turvakaalutlustel soovitatakse geokodeerimise jaoks määrata eraldi API võti"
+
+msgid "Could not create refund: payment is still being processed, try to refund later"
+msgstr "Tagasimakset ei õnnestunud luua, kuna makse on veel töötluses. Proovi hiljem uuesti"
+
+msgid "Disable automatic cancelled payment status update"
+msgstr "Lülita automaatne tühistatud maksete staatuse uuendamine välja"
+
+msgid "Disable automatic order status updates for cancelled payments by MakeCommerce"
+msgstr "Keela MakeCommerce´i automaatsed tellimuse staatuse värskendused tühistatud maksete puhul"
+
+msgid "Disable MakeCommerce from updating order statuses for cancelled payments and let WooCommerce handle the status change"
+msgstr "Keela MakeCommerce'il tühistatud maksetega tellimuste staatuse värskendamine ja lase staatuse muutus käsitleda WooCommerce'il"
+
+msgid "Disable automatic expired payment status update"
+msgstr "Keela aegunud maksete staatuse automaatne värskendamine"
+
+msgid "Disable automatic order status updates for expired payments by MakeCommerce"
+msgstr "Keela MakeCommerce´i automaatsed tellimuse staatuse värskendused aegunud maksete puhul"
+
+msgid "Disable MakeCommerce from updating order statuses for expired payments and let WooCommerce handle the status change"
+msgstr "Keela MakeCommerce'il aegunud maksetega tellimuste staatuse värskendamine ja lase staatuse muutus käsitleda WooCommerce'il"
+
+msgid "Choose machine from map"
+msgstr "Vali kaardilt pakiautomaat"
+
+msgid "Unable to use Google Geocoding:"
+msgstr "Google'i geokodeerimist ei saa kasutada:"
+
+msgid "Check your app settings or"
+msgstr "Kontrolli rakenduse seadeid või"
+
+msgid "update the key here"
+msgstr "uuenda võtit siin"
+
+msgid "https://makecommerce.net/integration-modules/makecommerce-plugin-for-woocommerce/#map-view-for-the-selection-of-parcel-machines"
+msgstr "https://maksekeskus.ee/maksemoodulid/makecommerce-plugin-woocommerce-platvormile/#kaardivaade-pakiautomaatide-valikul"
+
+msgid "DPD Courier"
+msgstr "DPD kuller"
+
+msgid "enable DPD courier shipping method"
+msgstr "luba DPD kulleriga saatmine"
+
+msgid "DPD API Key"
+msgstr "DPD API võti"
+
+msgid "Shipments will be automatically registered on payment using the selected DPD service code"
+msgstr "Saadetised registreeritakse tasumisel automaatselt, kasutades valitud DPD teenuskoodi"
+
+msgid "QP - handover to DPD at Post Office"
+msgstr "QP - üleandmine DPD-le postkontoris"
+
+msgid "PK - handover to DPD via Parcel Machine"
+msgstr "PK - üleandmine DPD-le pakiautomaadi kaudu"
+
+msgid "use my own DPD contract"
+msgstr "kasuta minu enda DPD lepingut"
+
+msgid "You can now use the API Key for a more streamlined integration process. Please note that the traditional username and password authentication method will be deprecated in the near future. We strongly encourage you to switch to API Key authentication as soon as possible."
+msgstr "Nüüd saad API võtme abil kasutada veelgi sujuvamat integreerimisprotsessi. Pane tähele, et traditsiooniline kasutajanime ja parooliga autentimismeetod muutub lähitulevikus vananenuks. Me soovitame võimalikult kiiresti üle minna API võtme autentimisele."
+
+msgid "Please be aware that changing the credentials to API key will affect generating labels for all old shipments. Please generate all labels needed for already created shipments before migrating to new API."
+msgstr "Palun pane tähele, et API võtme andmete muutmine mõjutab ka kõikide varasemate saadetiste pakisiltide loomist. Palun loo juba valmis saadetiste pakisildid enne uuele API-le üleminekut."

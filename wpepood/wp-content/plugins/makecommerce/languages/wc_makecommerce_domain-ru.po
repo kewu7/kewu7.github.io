@@ -1,0 +1,944 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MakeCommerce 3.0.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/makecommerce\n"
+"POT-Creation-Date: 2022-06-28T08:12:23+00:00\n"
+"PO-Revision-Date: 2022-06-28 11:37+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.1\n"
+"X-Domain: wc_makecommerce_domain\n"
+
+msgid "MakeCommerce API"
+msgstr "MakeCommerce API"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Credit Card Settings"
+msgstr "Настройки кредитной карты"
+
+msgid "Advanced Settings"
+msgstr "Расширенные настройки"
+
+msgid "Update"
+msgstr "Обновить"
+
+msgid "If you want to change default order, put here comma separated list of channels. i,e, - seb,lhv,swedbank. see more on the module home page (link above)"
+msgstr "Если вы хотите изменить порядок по умолчанию, поместите здесь список каналов через запятую (seb,lhv,swedbank) см. больше на домашней странице модуля (ссылка выше)"
+
+msgid "Country selector style"
+msgstr "Стиль выбора страны"
+
+msgid "Group bank-links by countries"
+msgstr "Группировка банковских ссылок по странам"
+
+msgid "Prefill Credit Card form with customer data"
+msgstr "Заполните форму кредитной карты с данными клиента"
+
+msgid "It will pass user Name and e-mail address to the Credit Card dialog to make the form filling easier"
+msgstr "Имя клиента и адрес электронной почты автоматически добавляются в форму кредитной карты, что упрощает ее заполнение"
+
+msgid "Update payment methods"
+msgstr "Обновить способы оплаты"
+
+msgid "List"
+msgstr "Список"
+
+msgid "Grouped to widget"
+msgstr "Сгруппированы в виджет"
+
+msgid "Dropdown"
+msgstr "Выпадающее меню"
+
+msgid "Flag"
+msgstr "Флаг"
+
+msgid "Appropriate title may depend on the configuration you have made, i.e. 'pay with bank-link or credit card', 'pay with bank-links' or 'payment methods'"
+msgstr "Соответствующее название может зависеть от конфигурации, которую вы сделали - например «оплатить банковской ссылкой или кредитной картой», «оплатить банковскими ссылками» или «способы оплаты»"
+
+msgid "Estonia"
+msgstr "Эстония"
+
+msgid "Latvia"
+msgstr "Латвия"
+
+msgid "Lithuania"
+msgstr "Литва"
+
+msgid "Finland"
+msgstr "Финляндия"
+
+msgid "Logo"
+msgstr "Логотип"
+
+msgid "Integration country"
+msgstr "Страна поставщика услуг"
+
+msgid "MakeCommerce"
+msgstr "MakeCommerce"
+
+msgid "https://makecommerce.net/"
+msgstr "https://MakeCommerce.net/"
+
+msgid "Adds MakeCommerce/Simplecheckout payment gateway and Itella/Omniva/DPD parcel machine shipping methods to WooCommerce checkout"
+msgstr "Добавляет платежный шлюз MakeCommerce и способы доставки посылочных автоматов Itella / Omniva в кассу Woocommerce"
+
+msgid "Maksekeskus AS"
+msgstr "Maksekeskus AS"
+
+msgid "You have enabled MakeCommerce module but it seems that you don't have CURL enabled. This way MakeCommerce unfortunately does not work!"
+msgstr "Вы включили модуль MakeCommerce, но, похоже, у вас не включен CURL. Таким образом, MakeCommerce, к сожалению, не работает!"
+
+msgid "MakeCommerce API access"
+msgstr "Доступ к MakeCommerce API"
+
+msgid "MakeCommerce API access credentials"
+msgstr "Данные для доступа к API MakeCommerce"
+
+msgid "To use MakeCommerce/Maksekeskus services you need to enter API credentials below here <br/> <br/>"
+msgstr "Чтобы воспользоваться услугами MakeCommerce / Maksekeskus, вам нужно ввести учетные данные API ниже здесь <br/> <br/>"
+
+msgid "To further configure the Payment methods please go to <a href=.\"%s\">MakeCommerce Checkout Options</a>, links to settings of our Shipment methods are listed below"
+msgstr "Затем настройте <a href=.\"%s\"> способ оплаты MakeCommerce </a> в разделе «Настройки оформления заказа», и ссылки на наши настройки способа доставки перечислены ниже"
+
+msgid "Current environment"
+msgstr "Выберите среду"
+
+msgid "See more about <a href=\"https://maksekeskus.ee/en/for-developers/test-environment/\">MakeCommerce Test environment</a>"
+msgstr "Узнай больше <a href=\"https://maksekeskus.ee/en/for-developers/test-environment/\">Тестовая среда MakeCommerce</a>"
+
+msgid "Live"
+msgstr "Live"
+
+msgid "Test"
+msgstr "Тест"
+
+msgid "Shop ID (live)"
+msgstr "ID-магазина (live)"
+
+msgid "Get it from <a href=\"https://merchant.maksekeskus.ee/api.html\" target=\"_blank\">Merchant Portal</a>"
+msgstr "Получи это от <a href=\"https://merchant.maksekeskus.ee/api.html\" target=\"_blank\">Торговый портал</a>"
+
+msgid "Secret key (live)"
+msgstr "Секретный ключ (live)"
+
+msgid "Publishable key (live)"
+msgstr "Публикуемый ключ (live)"
+
+msgid "Shop ID (test)"
+msgstr "ID-магазина (test)"
+
+msgid "Get it from <a href=\"https://merchant.test.maksekeskus.ee/api.html\" target=\"_blank\">Merchant Portal Test</a>"
+msgstr "Получите это от <a href=\"https://merchant.test.maksekeskus.ee/api.html\" target=\"_blank\">Тест торговый портал</a>"
+
+msgid "Secret key (test)"
+msgstr "Секретный ключ (test)"
+
+msgid "Publishable key (test)"
+msgstr "Публикуемый ключ (test)"
+
+msgid "Label print format"
+msgstr "Формат печати этикеток"
+
+msgid "In which format should shipping labels be printed. (*make sure you have API access to see more options)"
+msgstr "В каком формате следует печатать посылочные  этикетки. (*убедитесь, что у вас есть доступ к API, чтобы увидеть больше вариантов)"
+
+msgid "Makecommerce modules"
+msgstr "Makecommerce модули"
+
+msgid "Our plugin adds several modules to your shop. Here you can switch off modules that are not important for you, they will disappear from Woocommerce settings menus.<br> Each active module have their own settings dialog, where they must also be Enabled before use."
+msgstr "Наш плагин добавляет несколько модулей в ваш магазин. Здесь вы можете отключить ненужные для вас модули, они исчезнут из меню настроек Woocommerce. <br> Каждый активный модуль имеет свой собственный диалог настроек, где они также должны быть включены перед использованием."
+
+msgid "Omniva Parcel Machine"
+msgstr "Посылочный автомат Omniva"
+
+msgid "enable Omniva parcel machines shipping method"
+msgstr "разреши способ доставки посылочных автоматов Omniva"
+
+msgid "<a href=\"%s\">module settings</a>"
+msgstr "<a href=\"%s\">Настройки модуля</a>"
+
+msgid "Smartpost Parcel Machine"
+msgstr "Smartpost посылочных автомат"
+
+msgid "enable Smartpost parcel machines shipping method"
+msgstr "разреши способ доставки посылочных автоматов Smartpost"
+
+msgid "DPD"
+msgstr "DPD"
+
+msgid "parcel machine"
+msgstr "Посылочный автомат"
+
+msgid "enable DPD parcel machine shipping method"
+msgstr " разреши способ доставки посылочных автоматов DPD"
+
+msgid "Omniva Courier"
+msgstr "Омнива курьер"
+
+msgid "enable Omniva courier shipping method"
+msgstr "разреши способ курьерской доставки Omniva"
+
+msgid "Smartpost Courier"
+msgstr "Smartpost курьер"
+
+msgid "enable Smartpost courier shipping method"
+msgstr "разреши способ курьерской доставки SmartPOST"
+
+msgid "SimpleCheckout"
+msgstr "SimpleCheckout"
+
+msgid "enable SimpleCheckout&trade; Checkout method"
+msgstr "Включить SimpleCheckout&trade; Метод оформления заказа"
+
+msgid "You have not entered the Shop ID and keys for the MakeCommerce payment module. The module will not work without them."
+msgstr "Вы не ввели ID-магазина и ключи для платежного модуля MakeCommerce. Модуль не будет работать без них."
+
+msgid "Click here to enter them"
+msgstr "Нажмите здесь, чтобы ввести их"
+
+msgid "International"
+msgstr "Международный"
+
+msgid "Please check that you have configured correctly MakeCommerce API accesses"
+msgstr "Пожалуйста, убедитесь, что вы правильно настроили доступ к MakeCommerce API"
+
+msgid "Cannot initiate MakeCommerce, a class and/or namespace called \"MakeCommerce\" is already in use somewhere else..."
+msgstr "Невозможно запустить MakeCommerce, класс и / или пространство имен под названием «MakeCommerce» уже используется где-то еще..."
+
+msgid "Cannot initiate MakeCommerce, there seems to be no WooCommerce present or active..."
+msgstr "Не удается запустить MakeCommerce, похоже, WooCommerce отсутствует или не активна..."
+
+msgid "Payment failed"
+msgstr "Платеж не прошел"
+
+msgid "Payment transaction cancelled"
+msgstr "Платежная транзакция отменена"
+
+msgid "Payment transaction expired"
+msgstr "Срок платежной транзакции истек"
+
+msgid "Simple Checkout feature will be removed from the MakeCommerce module on 1st of October. If you’re using the feature in your shop, please start using the WooCommerce default checkout before October."
+msgstr "Упрощённое оформление покупки “Simple checkout” будет удалена из модуля MakeCommerce с 1 октября. Если вы все еще используете эту функцию в своем магазине, замените ее способом оплаты по умолчанию до 1. октября."
+
+msgid "Refund completed for amount %s"
+msgstr "Возврат завершен на сумму %s"
+
+msgid "Partial refund completed for amount %s"
+msgstr "Частичный возврат выполнен на сумму %s"
+
+msgid "You have to log in to continue to checkout"
+msgstr "Войдите в систему, чтобы продолжить оформление заказа"
+
+msgid "SimpleCheckout replaces Woocommerce built-in check-out dialog with Makecommerce hosted dialog. It is more convenient and faster for your customers"
+msgstr "Simple Checkout заменяет встроенное диалоговое окно кассы Woocommerce на диалоговое окно Makecommerce. Это удобнее и быстрее для ваших клиентов"
+
+msgid "See more about SimpleCheckout on: <a target=_blank href=\"https://makecommerce.net/simplecheckout/\">makecommerce.net/simplecheckout</a>"
+msgstr "Узнайте больше о SimpleCheckout: <a target=_blank href=\"https://makecommerce.net/simplecheckout/\">makecommerce.net/simplecheckout</a>"
+
+msgid "Enable/Disable"
+msgstr "Включить/Выключить"
+
+msgid "Enable SimpleCheckout"
+msgstr "Включить SimpleCheckout"
+
+msgid "Shop ToS url"
+msgstr "Условия обслуживания магазина (URL)"
+
+msgid "paste here url of your shop \"Terms and Conditions\" page"
+msgstr "вставьте сюда условия использования вашего магазина (URL)"
+
+msgid "paste the url of your shops \"Terms and Conditions\" page here"
+msgstr "вставьте сюда URL-адрес страницы \"Положения и условия\" вашего магазина"
+
+msgid "Hide shipping methods block"
+msgstr "Скрыть блок методов доставки"
+
+msgid "Hide shipping methods block on cart page. This will make it look more clean and simple"
+msgstr "Скрыть блок методов доставки на странице корзины. Это сделает его более простым и понятным"
+
+msgid "Unable to renew subscription"
+msgstr "Невозможно продлить подписку"
+
+msgid "Renewal payment was declined"
+msgstr "Периодический платеж был отклонен"
+
+msgid "Transaction ID"
+msgstr "ID-транзакции"
+
+msgid "Payment option"
+msgstr "Вариант оплаты"
+
+msgid "Update successfully completed!"
+msgstr "Обновление успешно завершено!"
+
+msgid "Update successfully completed, but no payment methods were returned. Please contact us to solve the issue at support@maksekeskus.ee"
+msgstr "Обновление успешно завершено, но способы оплаты не возвращены. Пожалуйста, свяжитесь с нашей службой поддержки для решения проблемы по электронной почте support@maksekeskus.ee"
+
+msgid "There was an error with your update. Please try again."
+msgstr "Произошла ошибка с вашим обновлением. Пожалуйста, попробуйте еще раз."
+
+msgid "The order is still awaiting your payment"
+msgstr "Заказ все еще ожидает вашего платежа"
+
+msgid "Pay for subscription"
+msgstr "Оплатить подписку"
+
+msgid "This order contains subscriptions"
+msgstr "Этот заказ содержит подписки"
+
+msgid "I agree that my card will be recurringly billed by this store"
+msgstr "Я согласен на регулярные платежи с моей карты от этого магазина"
+
+msgid "Pay with credit card"
+msgstr "Оплатить кредитной картой"
+
+msgid "Please wait, processing payment..."
+msgstr "Пожалуйста, подождите, обработка платежа ..."
+
+msgid "The payment methods list for MakeCommerce payment module is empty."
+msgstr "Список способов оплаты для модуля оплаты MakeCommerce пустой."
+
+msgid "Go to the settings to update them"
+msgstr "Идите к настройкам, чтобы обновить их"
+
+msgid "You have changed the environment for MakeCommerce payment module. The payment methods list has been loaded for a different environment."
+msgstr "Вы изменили среду для платежного модуля MakeCommerce. Список способов оплаты был загружен для другой среды."
+
+msgid "No payment methods for selected country"
+msgstr "Нет способов оплаты для выбранной страны"
+
+msgid "Pay in <b>three equal parts, %s EUR per month</b>. First payment on <b>%s %s</b>"
+msgstr "Оплата <b>тремя равными частями, %s евро в месяц</b>. Первый платеж <b>%s %s</b>"
+
+msgid "Buy now, <b>pay on the 15th of the next month</b>"
+msgstr "Купи сейчас, <b>заплати 15 числа следующего месяца</b>"
+
+msgid "Pay <b>%s EUR per month for 12 months</b>. Interest %s"
+msgstr "Платите <b>%s евро в месяц за 12 месяцев</b>. Процентная ставка %s"
+
+msgid "Pay <b>%s EUR per month</b> for 12 months<br>\n                        <br>\n                        <i>Borrowing rate %s&#37;, credit amount %s€, contract conclusion fee %s€, total amount payable %s€, annual interest rate %s&#37;\n                        Calculation is only informative.</i>"
+msgstr "Плати <b>%s EUR / мес.</b><br> <br> <i>Процентная ставка  в течение 12 месяцев %s&#37;, сумма заёма %s€, комиссия по выдаче кредита %s€, общая сумма к погашению %s€, годовая процентная ставка %s&#37;. Расчет носит ознакомительный характер</i>"
+
+msgid "Pay later Settings"
+msgstr "Настройки функции \"Оплатить позже\""
+
+msgid "Show pay later options at product view"
+msgstr "Показать варианты оплаты позже в обзоре продукта."
+
+msgid "Select desired pay later methods to show in product view"
+msgstr "Выберите желаемые способы оплаты позже для отображения в обзоре продукта"
+
+msgid "Select multiple methods by holding down Ctrl or Command button"
+msgstr "Выберите несколько методов, удерживая Ctrl или кнопку Command"
+
+msgid "Your shop doesn't currently offer pay later methods with Maksekeskus. Adding pay later options to your should increases number of customers and purchase amounts. Please <a target=\"_blank\" href=\"https://makecommerce.net/contact/\">get in touch</a> with us to enable pay later for your shop."
+msgstr "В вашем магазине нет способов оплаты позже через Maksekeskus. Добавление опций оплаты позже к вам может увеличить количество клиентов и суммы покупок. <a target=\"_blank\" href=\"https://makecommerce.net/contact/\">Свяжитесь с нами</a>, чтобы включить их в свой магазин."
+
+msgid "This pay later feature is not available in your country yet. <a target=\"_blank\" href=\"https://makecommerce.net/contact/\">Contact us</a> for more information!"
+msgstr "Функция платить позже пока недоступна в вашей стране. <a target=\"_blank\" href=\"https://makecommerce.net/contact/\">Свяжитесь с нами</a> для дополнительной информации"
+
+msgid "Dismiss"
+msgstr "Закрыть сообщение"
+
+msgid "MakeCommerce module now includes <a href=\"%s\">option to display pay later options and payment terms examples in product view</a>. Having pay later options available potentially grows your customer base as well as average shopping cart. We recommend to use this option if considerable number of purchases are above 75 euros."
+msgstr "Модуль MakeCommerce теперь включает <a href=\"%s\">возможность отображать варианты оплаты позже и примеры условий оплаты в представлении продукта</a>. Возможность оплаты позже потенциально увеличивает вашу клиентскую базу, а также увеличивает размер корзины покупок. Мы рекомендуем использовать эту опцию, если значительное количество покупок превышает 75 евро."
+
+msgid "January"
+msgstr "января"
+
+msgid "February"
+msgstr "февраля"
+
+msgid "March"
+msgstr "марта"
+
+msgid "April"
+msgstr "апреля"
+
+msgid "May"
+msgstr "мая"
+
+msgid "June"
+msgstr "июня"
+
+msgid "July"
+msgstr "июля"
+
+msgid "August"
+msgstr "августа"
+
+msgid "September"
+msgstr "сентября"
+
+msgid "October"
+msgstr "октября"
+
+msgid "November"
+msgstr "ноября"
+
+msgid "December"
+msgstr "декабря"
+
+msgid "1st"
+msgstr "1"
+
+msgid "2nd"
+msgstr "2"
+
+msgid "3rd"
+msgstr "3"
+
+msgid "4th"
+msgstr "4"
+
+msgid "5th"
+msgstr "5"
+
+msgid "6th"
+msgstr "6"
+
+msgid "7th"
+msgstr "7"
+
+msgid "8th"
+msgstr "8"
+
+msgid "9th"
+msgstr "9"
+
+msgid "10th"
+msgstr "10"
+
+msgid "11th"
+msgstr "11"
+
+msgid "12th"
+msgstr "12"
+
+msgid "13th"
+msgstr "13"
+
+msgid "14th"
+msgstr "14"
+
+msgid "15th"
+msgstr "15"
+
+msgid "16th"
+msgstr "16"
+
+msgid "17th"
+msgstr "17"
+
+msgid "18th"
+msgstr "18"
+
+msgid "19th"
+msgstr "19"
+
+msgid "20th"
+msgstr "20"
+
+msgid "21st"
+msgstr "21"
+
+msgid "22nd"
+msgstr "22"
+
+msgid "23rd"
+msgstr "23"
+
+msgid "24th"
+msgstr "24"
+
+msgid "25th"
+msgstr "25"
+
+msgid "26th"
+msgstr "26"
+
+msgid "27th"
+msgstr "27"
+
+msgid "28th"
+msgstr "28"
+
+msgid "29th"
+msgstr "29"
+
+msgid "30th"
+msgstr "30"
+
+msgid "31st"
+msgstr "31"
+
+msgid "Enable MakeCommerce payments"
+msgstr "Включить MakeCommerce платежи"
+
+msgid "Go to <a href=\"%s\">API settings</a> to fill in the credentials"
+msgstr "Перейдите в <a href=\"%s\">Настройки API</a> чтобы заполнить учетные данные"
+
+msgid "User Interface"
+msgstr "Пользовательский интерфейс"
+
+msgid "Set as default selection"
+msgstr "Установить как выбор по умолчанию"
+
+msgid "MakeCommerce payments widget will be selected by default"
+msgstr "Виджет платежей MakeCommerce будет выбран по умолчанию"
+
+msgid "Display MC payment channels as"
+msgstr "Показать способы оплаты MC как"
+
+msgid "Payments widget title"
+msgstr "Название виджета платежей"
+
+msgid "Pay with bank-links or credit card"
+msgstr "Оплата банковскими ссылками или кредитной картой"
+
+msgid "MC payment channels display style"
+msgstr "Стиль отображения каналов оплаты MC"
+
+msgid "Text & logo"
+msgstr "Текст и логотип"
+
+msgid "Size of payment channel logos"
+msgstr "Размер логотипа каналов оплаты"
+
+msgid "Small"
+msgstr "Маленький"
+
+msgid "Medium"
+msgstr "Средний"
+
+msgid "Large"
+msgstr "Большой"
+
+msgid "Hide country selector"
+msgstr "Скрыть выбор страны"
+
+msgid "Do not display country selector (flags) at payment methods"
+msgstr "Не показывать выбор страны (флаги) для вариантов оплаты"
+
+msgid "Define custom order of payment countries"
+msgstr "Определите индивидуальный порядок стран оплаты"
+
+msgid "If you want to change default order, insert a comma separated list of 2 char country codes. i.e. - ee, lv, lt, fi (international = other)"
+msgstr "Если вы хотите изменить порядок по умолчанию, вставьте разделенный запятыми список из 2-х символьных кодов стран – например - ee, lv, lt, fi (международный = other)"
+
+msgid "Define custom order of payment channels"
+msgstr "Настроить порядок каналов оплаты"
+
+msgid "This will update shop configuration from MakeCommerce servers."
+msgstr "Это обновит конфигурацию магазина с серверов MakeCommerce."
+
+msgid "Please select suitable payment option!"
+msgstr "Пожалуйста, выберите подходящий способ оплаты!"
+
+msgid "An error occured when trying to process payment!"
+msgstr "Произошла ошибка при попытке обработать платеж!"
+
+msgid "Orders %s did not have shipment ID attached so no labels was printed! Please register those packages if you think this is an error!"
+msgstr "Заказы %s не имеют идентификатора посылки, поэтому этикетки не были напечатаны! Пожалуйста, зарегистрируйте эти посылки, если считаете, что это ошибка!"
+
+msgid "Register parcel machine shipments"
+msgstr "Зарегистрируй посылки посылочных автоматов"
+
+msgid "Print parcel machine labels"
+msgstr "Печать этикетки посылок"
+
+msgid "Print parcel label"
+msgstr "Распечатать этикетку посылки"
+
+msgid "Something went wrong generating a label for this order. Please try again! Contact us, if the problem persists."
+msgstr "При создании этикетки для этого заказа произошла ошибка. Пожалуйста, попробуйте еще раз! Свяжитесь с нами, если проблема не исчезнет."
+
+msgid " can be used with an international phone number only. Please specify your phone number with international access code (e.g. +372xxxxxxx)"
+msgstr "<strong>Посылочный автомат</strong> можно использовать только с местным номером телефона. Пожалуйста, укажите свой номер телефона с международным кодом доступа ( +372xxxxxxx)"
+
+msgid " can only be used with Estonian, Latvian and Lithuanian numbers that are able to receive SMS (mobile phone)."
+msgstr "можно использовать только с номерами Эстонии, Латвии и Литвы, которые могут принимать SMS (мобильный телефон)."
+
+msgid "courier"
+msgstr "курьер"
+
+msgid "courier (MC)"
+msgstr "курьер (MC)"
+
+msgid "Register shipments automatically as"
+msgstr "Зарегистрировать посылки автоматически как"
+
+msgid "register on Payment"
+msgstr "зарегистрировать, когда заказ оплачен"
+
+msgid "Shipments will be automatically registered on payment using the selected Omniva service code"
+msgstr "Посылки будут автоматически регистрироваться при оплате с использованием выбранного сервисного кода Omniva"
+
+msgid "QP - handover to Omniva at Post Office"
+msgstr "QP - передача в почтовой конторе Omniva"
+
+msgid "PK - handover to Omniva via Parcel Machine"
+msgstr "PK - передача в Omniva через посылочный автомат"
+
+msgid "Which country's carrier gave you the credentials"
+msgstr "Оператор какой страны предоставил вам учетные данные"
+
+msgid "Pick courier arrival time window"
+msgstr "Выберите время прибытия курьера"
+
+msgid "Any time"
+msgstr "Любое время"
+
+msgid "Worktime (09:00..17:00)"
+msgstr "Время работы (09:00 - 17:00)"
+
+msgid "After worktime (17:00..21:00)"
+msgstr "После рабочего времени (17:00 - 21:00)"
+
+msgid "<strong>Parcel machine</strong> is a required field."
+msgstr "<strong>Посылочный автомат</strong> обязательное поле."
+
+msgid "Generic and pricing options"
+msgstr "Общие и ценовые настройки"
+
+msgid "Enable"
+msgstr "Включить"
+
+msgid "enabled"
+msgstr "разрешено"
+
+msgid "Maximum weight allowed for shipping (%s)"
+msgstr "Максимальный вес, разрешенный для доставки (%s)"
+
+msgid "Look and feel options"
+msgstr "Настройки внешнего вида"
+
+msgid "Options for presentation on check-out page"
+msgstr "Настройки для страницы Касса"
+
+msgid "Shipping Method Title"
+msgstr "Название способа доставки"
+
+msgid "API access for"
+msgstr "Доступ к API"
+
+msgid "You can automatically create shipments into %s system and print the out the package labels right here, at the shop orders view. <br> Please set your %s web services account credentials below here. <br>(see more on <a href=\"https://makecommerce.net/en/integration-modules/makecommerce-woocommerce-payment-plugin/#carriers-integration\">MakeCommerce plugin page</a>. Don't forget to enable also <a href=\"%s\">MC API keys</a>!)"
+msgstr "Вы можете автоматически создавать посылки в систему  %s и распечатывать этикетки упаковок прямо здесь, в представлении заказов магазина. <br> "
+"Пожалуйста, введите свои  %s учетные данные здесь. <br> (Больше на <a href=“https://makecommerce.net/en/integration-modules/makecommerce-woocommerce-payment-plugin/#carriers-integration”>Страница плагина MakeCommerce</a>. "
+"Не забудьте также включить <a href=“%s”>MC API ключи</a>!)"
+
+msgid "Shipping price"
+msgstr "Цена доставки"
+
+msgid "Free shipping amount"
+msgstr "Сумма бесплатнои доставки"
+
+msgid "(0 means no free shipping)"
+msgstr "(0 означает отсутствие бесплатной доставки)"
+
+msgid "Free shipping coupons"
+msgstr "Купоны на бесплатную доставку"
+
+msgid "Allow using free shipping coupons to be used with this method"
+msgstr "Разрешить использовать бесплатные купоны доставки для использования с этим методом"
+
+msgid "Return address"
+msgstr "Обратный адрес"
+
+msgid "Please define return address for %s shipments"
+msgstr "Пожалуйста, укажите обратный адрес для отправлений %s"
+
+msgid "Shop name"
+msgstr "Название магазина / компании"
+
+msgid "Shop phone"
+msgstr "Номер телефона магазина"
+
+msgid "Shop email"
+msgstr "Электронная почта магазина"
+
+msgid "Shop address country"
+msgstr "Адрес магазина : страна"
+
+msgid "Shop address city"
+msgstr "Адрес магазина : город"
+
+msgid "Shop address street"
+msgstr "Адрес магазина : улица"
+
+msgid "Shop postal code"
+msgstr "Почтовый индекс магазина"
+
+msgid "%s web services username"
+msgstr "%s имя пользователя веб-служб"
+
+msgid "%s web services password"
+msgstr "%s пароль веб-служб"
+
+msgid "Contract"
+msgstr "Контракт"
+
+msgid "use my own Omniva contract"
+msgstr "использовать мой Omniva договор"
+
+msgid "use MakeCommerce transport mediation service"
+msgstr "используи транспортную посредническую службу MakeCommerce"
+
+msgid "Verify service status"
+msgstr "Проверьте статус сервиса"
+
+msgid "You must enable the Transport mediation service before using it."
+msgstr "Включите транспортную посредническую службу перед ее использованием."
+
+msgid "This will check if the Transport mediation service has been enabled for your shop."
+msgstr "Это проверит, включена ли транспортная посредническая служба для вашего магазина."
+
+msgid "Verify"
+msgstr "Проверка"
+
+msgid "The transport mediation service is already enabled for your shop. You are good to go!"
+msgstr "Там услуга посредничества транспорта уже включена для вашего магазина. Все готово!"
+
+msgid "The transport mediation service is NOT ENABLED enabled for your shop. Please go to merchant portal to activate it!"
+msgstr "Там услуга посредничества транспорта НЕ включена для вашего магазина. Пожалуйста, перейдите на Merchant Portal, чтобы активировать его!"
+
+msgid "There was an error with your request. Please try again."
+msgstr "Произошла ошибка с вашим запросом. Пожалуйста, попробуйте еще раз."
+
+msgid "parcelmachine"
+msgstr "посылочный автомат"
+
+msgid "parcel machine (MC)"
+msgstr "Посылочный автомат (MC)"
+
+msgid "Prioritize"
+msgstr "Меню пакоматов"
+
+msgid "Bigger cities will be on top of list, others sorted alphabetically"
+msgstr "Большие города будут отображаться вначале, остальные отсортированы в алфавитном порядке"
+
+msgid "Short names"
+msgstr "Название пакоматов"
+
+msgid "Display only parcel machine names, without addresses"
+msgstr "Показать только названия пакоматов, без адреса"
+
+msgid "Search"
+msgstr "Поиск"
+
+msgid "Make parcel machine selection searchable"
+msgstr "Активировать поиск пакоматов в меню"
+
+msgid "-- select parcel machine --"
+msgstr "--выберите посылочный автомат--"
+
+msgid "Use authenticable APTs"
+msgstr "только посылочные автоматы с функцией аутентификации"
+
+msgid "use all APTs"
+msgstr "все посылочные автоматы"
+
+msgid "use only non-white auth-capable APTs"
+msgstr "использовать только посылочные автоматы с функцией аутентификации (не белые)"
+
+msgid "Shipping class costs (optional)"
+msgstr "Стоимость класса доставки (по желанию)"
+
+msgid "Shipping class cost is added to the shipping price. If multiple are found, the one with highest cost is added."
+msgstr "Стоимость класса доставки добавляется к цене доставки. Если найдено несколько, добавляется тот, у которого самая высокая стоимость."
+
+msgid "Parcel machine"
+msgstr "Посылочный автомат"
+
+msgid "Delivery time"
+msgstr "Срок поставки"
+
+msgid "Shipment tracking code"
+msgstr "Код отслеживания посылки"
+
+msgid "Package shipment generation error:"
+msgstr "Ошибка регистрации посылки:"
+
+msgid "-- filter by shipping method"
+msgstr "-- фильтр по способу доставки"
+
+msgid " Shipment tracking code"
+msgstr "Код отслеживания доставки"
+
+msgid "Shipment tracking info"
+msgstr "Информация об отслеживании посылки"
+
+msgid "Does not fit parcel machine"
+msgstr "Не подходит в посылочный автомат"
+
+msgid "When this is checked, parcel machine shipping option is not available for a cart with this product"
+msgstr "Когда это отмечено, посылочные автоматы не будут предлагаться для соответствующей корзины в качестве способа доставки"
+
+msgid "Free parcel machine"
+msgstr "Посылочный автомат бесплатно"
+
+msgid "When this is checked, parcel machine is free for this product"
+msgstr "Когда это отмечено, транспортировка этого продукта в посылочном автомате бесплатна"
+
+msgid "This is a test"
+msgstr "Это тест"
+
+msgid "Adds MakeCommerce payment gateway and Itella/Omniva/DPD parcel machine shipping methods to WooCommerce checkout"
+msgstr "Добавляет платежный методы MakeCommerce и способы доставки посылочных автоматов Itella/Omniva/DPD в WooCommerce."
+
+msgid "LP Express"
+msgstr "ЛП Экспресс"
+
+msgid "enable LP Express parcel machine shipping method"
+msgstr "включить способ доставки посылочного автомата LP Express"
+
+msgid "Pay <b>%s EUR per month</b> for 12 months<br>\n                        <br>\n                        <i>Borrowing rate %s&#37;, credit amount %s€, contract conclusion fee %s€, total amount payable %s€, annual interest rate %s&#37;\n                        Calculation is only informative.</i>"
+msgstr "Плати <b>%s EUR / мес.</b><br> <br> <i>Процентная ставка  в течение 12 месяцев %s&#37;, сумма заёма %s€, комиссия по выдаче кредита %s€, общая сумма к погашению %s€, годовая процентная ставка %s&#37;. Расчет носит ознакомительный характер</i>"
+
+msgid " can be used with a Lithuanian phone number only. Please specify your phone number with Lithuanian access code (e.g. +370xxxxxxxx)"
+msgstr " можно использовать только с литовским номером телефона. Пожалуйста, укажите ваш номер телефона с кодом страны Литвы (например, +370xxxxxxxx)."
+
+msgid "Update here"
+msgstr "Обновить здесь"
+
+msgid "Shop phone (mobile)"
+msgstr "Телефон магазина (мобильный)"
+
+msgid "Default LP Express template"
+msgstr "Шаблон LP Express по умолчанию"
+
+msgid "All new orders will have this template as a default but can be individually changed in the order view. <br>When changing the template size in the order view, the packing slip will also change."
+msgstr "Все новые заказы будут иметь этот шаблон по умолчанию, но его можно индивидуально изменить в детали заказа. <br>При изменении размера шаблона в детали заказа, этикетка доставки также изменится."
+
+msgid "Shop building"
+msgstr "Адрес магазина : Здание"
+
+msgid "Shop apartment"
+msgstr "Адрес магазина : квартира"
+
+msgid "Parcel to Parcel size XL"
+msgstr "Посылка на посылку размера XL"
+
+msgid "LP Express template"
+msgstr "Шаблон LP Express"
+
+msgid " can be used with an international phone number only. Please specify your phone number with international country code (e.g. +372xxxxxxx)"
+msgstr "можно использовать только с международным номером телефона. Укажите свой номер телефона с международным кодом страны (например, +372xxxxxxx)"
+
+msgid " can be used with a Lithuanian phone number only. Please specify your phone number with Lithuanian country code (e.g. +370xxxxxxxx)"
+msgstr "можно использовать только с Литовским номером телефона. Пожалуйста, укажите свой номер телефона с кодом страны Литвы (например, +370xxxxxxxxx)"
+
+msgid "Please define return address for %s shipments.<br><b>All fields are required.</b>"
+msgstr "Пожалуйста, укажите обратный адрес для %s посылок.<br><b>Все поля обязательны для заполнения.</b>"
+
+msgid "To further configure the Payment methods please go to <a href=\"%s\">MakeCommerce Checkout Options</a>, links to settings of our Shipment methods are listed below"
+msgstr "Для дальнейшей настройки способов оплаты перейдите в раздел <a href=\"%s\">Параметры оплаты MakeCommerce</a>, ссылки на настройки наших способов доставки указаны ниже"
+
+msgid "Buy now, <b>pay on the 25th of the next month</b>"
+msgstr "Купите сейчас, <b>оплатите 25-го числа следующего месяца</b>"
+
+msgid "SmartPost API Key"
+msgstr "SmartPost API ключ"
+
+msgid "Parcel Machine Map Settings"
+msgstr "Настройки карты посылочных терминалов"
+
+msgid "Before using, please read more about the functionalities, benefits and security measures of our parcel machine map from"
+msgstr "Перед использованием, пожалуйста, прочитайте больше о функциональности, преимуществах и мерах безопасности наших карт посылочных терминалов на"
+
+msgid "our plugin instructions"
+msgstr "инструкция по нашему модулю"
+
+msgid "Enable map selection for parcel machines"
+msgstr "Включить список посылочных терминалов на карте"
+
+msgid "Allow customers to select their desired parcel machine from a map view"
+msgstr "Разрешить клиентам выбирать предпочтительный посылочный терминал на карте"
+
+msgid "Define Google Javascript API key"
+msgstr "Определите ключ API Google Javascript"
+
+msgid "In order to enable the map feature for parcel machine seletion, a Google Javascript API key needs to be obtained"
+msgstr "Чтобы включить функцию карты для выбора посылочных терминалов, Вам необходимо получить ключ Google Javascript API"
+
+msgid "Use Google Geocoding"
+msgstr "Используйте геокодирование Google"
+
+msgid "Geocoding allows the map to centralize on the shipping address"
+msgstr "Геокодирование позволяет определить карту по адресу доставки"
+
+msgid "Define a Google Geocoding API key"
+msgstr "Определите ключ API геокодирования Google"
+
+msgid "A separate API key is recommended to be defined for Geocoding due to security reasons"
+msgstr "В целях безопасности, для геокодирования рекомендуется определить отдельный ключ API"
+
+msgid "Could not create refund: payment is still being processed, try to refund later"
+msgstr "Не удалось сделать возврат: платеж все еще обрабатывается, попробуйте вернуть деньги позже"
+
+msgid "Disable automatic cancelled payment status update"
+msgstr "Отключить автоматическое обновление статуса заказа для отмененных платежей"
+
+msgid "Disable automatic order status updates for cancelled payments by MakeCommerce"
+msgstr "Отключить автоматическое обновление статуса заказа для отмененных платежей MakeCommerce"
+
+msgid "Disable MakeCommerce from updating order statuses for cancelled payments and let WooCommerce handle the status change"
+msgstr "Отключите обновление статуса заказа MakeCommerce для отмененных платежей и позвольте WooCommerce обрабатывать изменения статуса"
+
+msgid "Disable automatic expired payment status update"
+msgstr "Отключить автоматическое обновление статуса заказа, для платежей, срок действия которых истек"
+
+msgid "Disable automatic order status updates for expired payments by MakeCommerce"
+msgstr "Отключить автоматическое обновление статуса заказа, для MakeCommerce платежей, срок действия которых истек"
+
+msgid "Disable MakeCommerce from updating order statuses for expired payments and let WooCommerce handle the status change"
+msgstr "Отключите обновление статуса заказа MakeCommerce для платежей, срок действия которых истек и позвольте WooCommerce обрабатывать изменения статуса"
+
+msgid "Choose machine from map"
+msgstr "Выберите посылочный терминал на карте"
+
+msgid "Unable to use Google Geocoding:"
+msgstr "Невозможно использовать геокодирование Google:"
+
+msgid "Check your app settings or"
+msgstr "Проверьте настройки приложения или"
+
+msgid "update the key here"
+msgstr "возобновить ключ здесь"
+
+msgid "https://makecommerce.net/integration-modules/makecommerce-plugin-for-woocommerce/#map-view-for-the-selection-of-parcel-machines"
+msgstr "https://makecommerce.net/integration-modules/makecommerce-plugin-for-woocommerce/#map-view-for-the-selection-of-parcel-machines"
+
+msgid "DPD Courier"
+msgstr "Курьер DPD"
+
+msgid "enable DPD courier shipping method"
+msgstr "разреши способ курьерской доставки DPD"
+
+msgid "DPD API Key"
+msgstr "API-ключ DPD"
+
+msgid "Shipments will be automatically registered on payment using the selected DPD service code"
+msgstr "Посылки будут автоматически зарегистрированы при оплате с использованием выбранного кода услуги DPD."
+
+msgid "QP - handover to DPD at Post Office"
+msgstr "QP - передача в почтовой конторе DPD"
+
+msgid "PK - handover to DPD via Parcel Machine"
+msgstr "PK – передача в DPD через посылочный автомат"
+
+msgid "use my own DPD contract"
+msgstr "использовать свой договор с DPD"
+
+msgid "You can now use the API Key for a more streamlined integration process. Please note that the traditional username and password authentication method will be deprecated in the near future. We strongly encourage you to switch to API Key authentication as soon as possible."
+msgstr "Теперь вы можете использовать API-ключ для более упрощенного процесса интеграции. Обратите внимание, что текущий метод аутентификации по имени пользователя и паролю будет прекращен в ближайшем будущем. Мы настоятельно рекомендуем вам как можно скорее перейти на аутентификацию по ключу API."
+
+msgid "Please be aware that changing the credentials to API key will affect generating labels for all old shipments. Please generate all labels needed for already created shipments before migrating to new API."
+msgstr "Пожалуйста, обратите внимание, что изменение учетных данных на API-ключ повлияет на генерацию этикеток для всех старых посылках. Пожалуйста, сгенерируйте все необходимые этикетки для уже созданных поставок до перехода на новый API."

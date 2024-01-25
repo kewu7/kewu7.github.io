@@ -1,0 +1,247 @@
+.mc_map_info_div > p {
+  margin: 8px 2px;
+}
+
+.mcpmmap_overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.mcpmmap_overlay-frame {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 10%;
+  left: 10%;
+  text-align: center;
+  width: 80%;
+  height: 85%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+.mcpmmap_overlay-content {
+  top: -1px;
+  border-radius: 8px 8px 0 0;
+  position: relative;
+  height: 85%;
+  text-align: center;
+}
+
+.mc_map_infowindow {
+  padding-left: 6px;
+}
+
+.mc_map_infowindow * {
+  outline: none;
+}
+
+.mc_map_carriers {
+  flex-grow: 1;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: 50px;
+}
+
+.mc_map_carrier {
+  padding: 2px 20px;
+}
+
+.mc_map_close {
+  position: absolute;
+  top: -30px;
+  right: -40px;
+}
+
+.mc_pmmap_choose_button {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+  height: 28px;
+  border: solid 1px black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mc_pmmap_pin {
+  padding-right: 5px;
+}
+
+.mc_pmmap_choose_button > p {
+  margin: unset;
+}
+
+.mc_map_close > img {
+  cursor: pointer;
+  height: 25px;
+}
+
+.mc_form_control {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #333333;
+  letter-spacing: 0px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.5em;
+}
+
+.mc_map_carrier_checkbox {
+  accent-color: #2eb059;
+}
+
+.mc_map_info_div {
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+.additional-machine-info {
+  font-size: 11px;
+}
+
+.mc_map_machine_logo {
+  height: 25px !important;
+}
+
+.mc_map_machine_choose, .mc_map_machine_choose:hover {
+  margin-bottom: 5px;
+
+  width: 100%;
+  height: 40px;
+  padding: 14px 24px 14px 24px;
+  border-radius: 6px;
+  background:#32CB64;
+  border: 1px solid rgba(50, 203, 100, 1);
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.mc_map_machine_choose:focus, .gm-ui-hover-effect:focus {
+  outline: none;
+}
+
+.mc_map_machine_name {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.mc_map_machine_address {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.gm-style-iw {
+  width: 297px;
+  border-radius: 8px;
+}
+
+.mc_form_control input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #C7CBD1;
+  border-radius: 3px;
+}
+
+/*
+Have to override the Maps' own css
+*/
+.gm-ui-hover-effect {
+  top: 8px !important;
+  right: 8px !important;
+  width: unset !important;
+  height: unset !important;
+}
+
+.gm-ui-hover-effect > span {
+  margin: 0 !important;
+}
+
+.mc_form_control:hover input ~ .checkmark {
+  background-color: rgb(230, 230, 230);
+}
+
+.mc_form_control input:checked ~ .checkmark {
+  background-color: #32CB64;
+  border: 0px;
+}
+
+.checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.mc_form_control input:checked ~ .checkmark:after {
+  display: flex;
+}
+
+.mc_form_control .checkmark:after {
+  left: 8px;
+  top: 4px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media screen and (max-height: 700px) {
+  .mcpmmap_overlay-content {
+    height: 80%;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .mcpmmap_overlay-content {
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mc_map_close {
+    right: -30px;
+  }
+
+  .mcpmmap_overlay-frame {
+    left: 9%;
+  }
+}
